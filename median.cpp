@@ -15,10 +15,12 @@ int main()
 		sort(v.begin(), v.end()	);
 	}
 	b = v.size();
-	if (b % 2) {
+	if (b % 2) 
+	{
 		cout << v[b / 2] << endl;
 	}
-	else {
+	else 
+	{
 		cout << (v[b / 2] + v[ b / 2 - 1]) / 2 << endl;
 	}
 }
